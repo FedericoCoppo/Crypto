@@ -27,7 +27,7 @@ while byte_num < 256 :
 		c += "\n"	
 
 c += "};\n"	
-with open('Cal_Module.c', 'wb') as f:
+with open('KeyModule.c', 'wb') as f:
     f.write(c)	
 print "Generating Cal_Module.c file containing modulus:" 	
 print c
@@ -53,7 +53,7 @@ while byte_num < 3 :
 		
 c += " };"
 
-with open('Cal_Exponent.c', 'wb') as f:
+with open('KeyExponent.c', 'wb') as f:
     f.write(c)	
 print "Generating Cal_Exp.c file containing exponent:" 	
 print c 
