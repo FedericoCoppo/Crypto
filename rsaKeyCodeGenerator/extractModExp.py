@@ -55,7 +55,7 @@ c += " };"
 
 with open('KeyExponent.c', 'wb') as f:
     f.write(c)	
-print "Generating Cal_Exp.c file containing exponent:" 	
+print "Generating KeyExponent.c file containing exponent:" 	
 print c 
 
 
