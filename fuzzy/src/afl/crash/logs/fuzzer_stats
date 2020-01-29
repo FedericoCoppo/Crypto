@@ -1,0 +1,25 @@
+start_time     : 1525871673
+last_update    : 1525871699
+fuzzer_pid     : 1222
+cycles_done    : 0
+execs_done     : 131271
+execs_per_sec  : 3076.92
+paths_total    : 21
+paths_favored  : 3
+paths_found    : 17
+paths_imported : 0
+max_depth      : 2
+cur_path       : 0
+pending_favs   : 3
+pending_total  : 21
+variable_paths : 0
+bitmap_cvg     : 0.03%
+unique_crashes : 3
+unique_hangs   : 0
+last_path      : 1525871697
+last_crash     : 1525871677
+last_hang      : 0
+exec_timeout   : 20
+afl_banner     : crash
+afl_version    : 1.96b
+command_line   : afl-fuzz -i inputs -o logs ./crash @@
